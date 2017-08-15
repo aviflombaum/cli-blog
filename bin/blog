@@ -39,14 +39,3 @@ while input != "exit"
       puts "Goodbye!"
   end
 end
-
-
-# .create_table
-# .drop_table
-# #update
-# #insert
-# .new_from_db
-# .find_or_create_by
-# .find_by_name
-# #persisted?
-# #destroy
