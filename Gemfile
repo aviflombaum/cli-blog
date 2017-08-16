@@ -6,3 +6,5 @@ gem 'pry'
 gem 'require_all'
 gem 'sqlite3'
 gem 'rspec'
+gem 'rake'
+gem 'activerecord', :require => "active_record"

@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require 'bundler'
+Bundler.require
+
+DB = {
+  :conn => SQLite3::Database.new("db/post.sqlite")
+}
+
+require_relative '../db/migrate/create_post_table'
+
+PostMigration.create_table({:title => "VARCHAR(255)", :content => "TEXT"})
